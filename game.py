@@ -47,4 +47,8 @@ class Game:
 
         
 A = Game()
-A.run(A.user_input(), A.computer_input())
+
+num = 0
+while num < 3:
+	A.run(A.user_input(), A.computer_input())
+	num = num + 1
